@@ -7,27 +7,27 @@ const Header = () => {
         <header className="header">
             <div>
                 <h1>
-                    <LINK to="/" className="logo">
+                    <Link to="/" className="logo">
                         Booat
-                    </LINK>
+                    </Link>
                 </h1>
             </div>
             <div className="header-links">
                 <ul>
                     <li>
-                        <LINK to="/">Home</LINK>
+                        <Link to="/">Home</Link>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <LINK to="/Singup">Singup</LINK>
+                        <Link to="/Signup">Singup</Link>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <LINK to="/cart" className="cart">
+                        <Link to="/cart" className="cart">
                             <i class="fas fa-shopping-cart" />
-                        </LINK>
+                        </Link>
                     </li>
                 </ul>
             </div>
